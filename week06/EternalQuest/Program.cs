@@ -5,7 +5,7 @@ using System.Linq;
 
 class Program
 {
-    // Req 13: Exceeds core requirements with LEVEL SYSTEM gamification
+    // Exceeds core requirements with LEVEL SYSTEM gamification
     // Users level up every 1000 points (Level 1 Ninja → Level 2 Master → etc.)
     private static List<Goal> _goals = new List<Goal>();
     private static int _score = 0;

@@ -15,7 +15,6 @@ public abstract class Goal
         _isCompleted = false;
     }
 
-    // Req 4: Virtual method for polymorphism
     public virtual string GetDisplayString()
     {
         return $"[ ] {_name} ({_description})";
@@ -36,7 +35,6 @@ public abstract class Goal
         }
     }
 
-    // Getters for encapsulation
     public string GetName() => _name;
     public bool IsCompleted() => _isCompleted;
     public int GetPoints() => _points;

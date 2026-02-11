@@ -4,8 +4,7 @@ public class EternalGoal : Goal
         : base(name, description, points)
     {
     }
-
-    // Req 7: Eternal goals never complete
+    
     public override string GetDisplayString()
     {
         return $"[ ] {_name} ({_description})";
